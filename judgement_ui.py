@@ -309,4 +309,5 @@ with gr.Blocks(theme=theme, css=custom_css, title="Judiciary AI") as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch()
+    port = int(os.environ.get("PORT",7860))
+    demo.launch(share = False,server_port=port,server_name="0.0.0.0")
