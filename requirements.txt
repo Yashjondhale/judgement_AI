@@ -1,0 +1,6 @@
+pandas
+numpy
+PyPDF2
+nltk
+gradio
+scikit-learn
